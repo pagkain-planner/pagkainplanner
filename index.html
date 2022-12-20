@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/7b1b82fb95.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Pagkain Planner</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+        <div class="banner">
+    <div class="navbar" id="navBar"> 
+        <img src="logo.jpeg" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipe.html">Recipe</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        </div>
+            </div>
+
+        </nav>
+        
+        <div class="text-box">
+    <h1>Pagkain Planner</h1>
+    <p>Healthy diet for a healthy life!</p>
+    </div>
+    
+    </section>
+
+<!------SEARCH---->
+    
+    
+<section> 
+
+    <div class="wrapper">
+        <div id="search-container">
+        <input
+               type="search"
+               id="search-input"
+               placeholder="Search meals here.."
+               />
+            <button id="search">Search</button>
+            </div>
+            <div id="buttons">
+                <button class="button-value" onclick="filterProduct('all')">All</button>
+                <button class="button-value" onclick="filterProduct('Chicken')">
+                  Chicken
+                </button>
+                <button class="button-value" onclick="filterProduct('Shrimp')">
+                  Shrimp
+                </button>
+                <button class="button-value" onclick="filterProduct('Tuna')">
+                  Tuna
+                </button>
+                <button class="button-value" onclick="filterProduct('Egg')">
+                  Egg
+                </button>
+                <button class="button-value" onclick="filterProduct('Vegetable')">
+                    Vegetables
+                  </button>
+              </div>
+              <div id="products"></div>
+            </div>
+        
+    </div>
+    
+  <script src="script.js"></script>
+    
+    
+    </section>
+    
+    
+
+    
+    <!-----CONTACT----->
+    
+    <section class="contact">
+        <div class="cnt">
+        <h1>Follow us for more recipes to come!</h1>
+        <a href="contact.html" class="btn">FOLLOW</a>
+        </div>
+        
+    
+    </section>
+    
+    
+    <!----ABOUT US------>
+    
+    <section class="footer">
+        <div class="ftr">
+        <h4>ABOUT US</h4>
+        <p>"Food is essential to life, therefore make it good."</p>
+        </div>
+        
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-google"></i>
+        </div>
+    
+        <p>Made with <i class="fa-regular fa-heart"></i> by Healthy Meals Inc.</p>
+        <p>This website was made for a course requirement.</p>
+    </section>
+    
+    
+    
+    
+  
+    
+ 
+
+</body>
+</html>
